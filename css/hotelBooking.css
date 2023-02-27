@@ -1,0 +1,41 @@
+body {
+    width : 100%;
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 2px;
+    background-color: lightblue;
+}
+header {
+    background-color: blue;
+    text-shadow: 8px, 8px, 8px, 0px black;
+}
+.headercontainer {
+    display: flex;
+    flex-flow: column wrap;
+    background: blue;
+    align-content: center;
+    font-weight: bold;
+}
+form {
+    margin-top: 50px;
+}
+div {
+    margin-bottom: 20px;
+}
+label, input {
+    font-size: 14px;
+    line-height: 1.5;
+}
+label {
+    font-weight: bold;
+    text-align: left;
+    width: 20%;
+    margin-left: 2%;
+    color: rgb(6, 193, 255);
+}
+input {
+    flex: auto;
+}
+html, input {
+    font-family: sans-serif;
+}
