@@ -1,0 +1,10 @@
+localStorage.getItem('name');
+localStorage.getItem('phNo');
+localStorage.getItem('room');
+localStorage.getItem('guest');
+localStorage.getItem('typeRoom');
+document.getElementById('name').textContent = name;
+document.getElementById('phNo').textContent = phNo;
+document.getElementById('room').textContent = room;
+document.getElementById('guest').textContent = guest;
+document.getElementById('typeRoom').textContent = typeRoom;

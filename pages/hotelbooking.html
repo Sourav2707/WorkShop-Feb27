@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Booking</title>
     <link rel = "stylesheet" href = "C:\Users\Sourav Prasanna\OneDrive\Desktop\JavaScript\Workshop-HotelBooking\css\hotelBooking.css">
+    <script src = "C:\Users\Sourav Prasanna\OneDrive\Desktop\JavaScript\Workshop-HotelBooking\js\hotelbooking.js"></script>
 </head>
 <body>
-    <form>
+    <form id = form>
         <header class = "header container"><h1>Bridgelabs Hotels</h1></header>
     </form>  
     <div>
         <label for = "name">Booking under name : </label>
-        <input type = "name" id = "name" name = "name" required>
+        <input type = "text" id = "name" name = "name" placeholder="Enter your name" required>
     </div>
     <div>
         <label for = "phNo">Phone number : </label>
-        <input type = "phNo" id = "phNo" name = "phNo" required>
+        <input type = "number" id = "phNo" name = "phNo" placeholder="Enter your phone number" required>
     </div>
     <div>
         <label for = "room">Number of rooms : </label>
-        <input type = "room" id = "room" name = "room" required>
+        <input type = "number" id = "room" name = "room" placeholder="Enter number of rooms needed" required>
     </div>
     <div>
         <label for = "guest">Number of guests : </label>
-        <input type = "guest" id = "guest" name = "guest" required>
+        <input type = "number" id = "guest" name = "guest" placeholder="Enter number of guests" required>
     </div>
     <div>
         <label for = "typeRoom">Type of Room : </label>
@@ -33,9 +34,10 @@
         <input type = "radio" id = "typeRoom" name = "typeRoon" value = "AC"required>
         <label for = "typeRoom">Non-AC : </label>
         <input type = "radio" id = "typeRoom" name = "typeRoon" value = "Non-AC"required>
+        <input type = "submit" onclick="store()">
     </div>
-    <div>
-        <button>Submit</button>
-    </div>
+    <!-- <div>
+        <button type = "submit" class = "button submitButton" id = "submit button">Submit</button>
+    </div> -->
 </body>
 </html>
